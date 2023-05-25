@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>My YouTube Video</title>
+		<style>
+			/* Add custom styles */
+			body {
+				 border: 4px solid black;
+				 background: url("https://t3.ftcdn.net/jpg/04/87/61/14/240_F_487611499_F5G8wD0qylNLFrrceCztWypvBfO6NmHM.jpg");
+			     background-repeat: no-repeat;
+				 background-size: 160%;
+				 
+				font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+			}
+			h3 {
+				color: rgb(255, 255, 255);
+				font-size: 50px;
+				font-weight: bold;
+				text-align: center;
+				margin-top: 50px;
+			}
+			.video-wrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 aspect ratio */
+				height: 0;
+				margin: 50px auto;
+				max-width: 800px;
+				box-shadow: 0 4px 6px rgba(2, 183, 255, 0.2);
+			}
+			.video-wrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<h3>A DAY IN UB</h3>
+		<div class="video-wrapper">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/HP7siGdXyII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>BOHOL MAP</title>
+<style>
+      #arrow {
+        position: absolute;
+        top: 50%;
+        left: 61%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+        background-image: url("https://scontent.fceb2-2.fna.fbcdn.net/v/t1.15752-9/336541045_868991684193598_3848557507237348019_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHF8db_amwVa3R_ljlZ_jWytF8iiakYt120XyKJqRi3XdoZlXn2y40zSS5NRYB58vJtCuahpq6oVO6x-T2GxnoY&_nc_ohc=uG6sXqEf_v8AX_39smF&_nc_ht=scontent.fceb2-2.fna&oh=03_AdQ2XtAVLlrN0fMA-xuH-XNKB61puyKndtBDPj0LvJlX7Q&oe=64438695");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translate(-50%, -50%);
+        animation: arrow 0.5s ease-in-out infinite alternate;
+      }
+
+      @keyframes arrow {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(25deg);
+        }
+      }
+
+      @keyframes arrow {
+        from {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        to {
+          transform: translate(-50%, -50%) rotate(25deg);
+        }
+      }
+</style>
+<body>
+
+<h2>BOHOL MAP</h2>
+<p>Click the Tagbilaran City:</p>
+<div id="arrow"></div>
+
+<img src="Boholmap.jpg" alt="boholmap" usemap="#boholmap" width="859" height="600">
+
+
+<map name="boholmap">
+  <area shape="circle" coords="151,457, 20" href="tagbilaran.html">
+
+</map>
+
+</body>
+</html>
